@@ -21,5 +21,5 @@ print(list2)
 print('_'.join(list2))
 
 str3 = 'Sorry about that'
-str3 = str3.split(' ')
+str3 = str3.split(' ')  # 以空格为分隔符，分离尽可能多的次数
 print(str3)
