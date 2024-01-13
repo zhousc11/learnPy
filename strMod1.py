@@ -1,4 +1,5 @@
 # 字符串的修改操作
+# replace, split, join
 str1 = '1a2b3c4d'
 str1.replace('1a', '2b')
 print(str1)  # 和下面的一样
@@ -18,8 +19,20 @@ print(list2)
 list2 = str2.split('.', 2)
 print(list2)
 
-print('_'.join(list2))
+print('_'.join(list2))  # 使用前面的字符串把后面的拼接起来
 
 str3 = 'Sorry about that'
-str3 = str3.split(' ')  # 以空格为分隔符，分离尽可能多的次数
+str4 = str3.split(' ')  # 以空格为分隔符，分离尽可能多的次数
 print(str3)
+print(str3.split(' ', 1))
+
+# join是用来组合字符串的，意思就是在后面的序列中插入前面的字符串
+sentence = ' '.join(['This', 'is', 'water'])
+print(sentence)
+
+str5 = 'hello'
+sentence1 = str5.join(['This', 'is'])  # Thishellois
+print(sentence1)
+
+# count方法
+print(str2.count('This', 0, 99))

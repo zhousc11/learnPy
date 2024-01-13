@@ -32,4 +32,5 @@ except ValueError:
     success = 0
     print('字符串未找到')
 
-
+print(str1.rfind('and'))
+print(str1.rindex('World'))
