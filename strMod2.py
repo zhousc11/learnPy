@@ -31,4 +31,4 @@ print(f'Original: {str2}')
 print(str2.lstrip())
 print(str2.rstrip())
 print(str2.lstrip().rstrip())  # 连续调用也是可以的
-
+print(str2.strip())  # 直接把两边的空格全部给去除了
