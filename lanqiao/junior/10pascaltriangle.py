@@ -1,0 +1,4 @@
+rows = int(input())
+triangle = []
+
+
